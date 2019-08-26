@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "node based application that functions like a miniature Amazon store",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FayeLinks/bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FayeLinks/bamazon/issues"
+  },
+  "homepage": "https://github.com/FayeLinks/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.5.1",
+    "mysql": "^2.16.0"
+  }
+}
