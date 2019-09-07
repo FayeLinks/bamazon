@@ -82,12 +82,13 @@ function shop() {
             connection.end();
         });
 
-    // // Updates the ammount of products stock minus the amount that was bought by the user
-    function update(res, amount) {
-        var cus_id = res.item_id;
-        console.log(cus_id)
+    // // Updates the amount of products stock minus the amount that was bought by the user
+    function update(id, amount) {
+        // var cus_id = res.item_id;
+        // console.log(id)
+        var amount = parseInt(res[0].stock_quantity - amount);
         console.log("Updating stock quality..." + amount);
-        var query = connection.query("UPDATE products SET stock_quantity - ? WHERE item_id = ?", [amount, cus_id],
+        var query = connection.query("UPDATE products SET stock_quantity - ? WHERE id = ?", [id],
             function (err, res) {
                 if (err) throw err;
                 console.log(res.affectedRows + " products updated!");
