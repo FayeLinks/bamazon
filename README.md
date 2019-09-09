@@ -5,7 +5,7 @@ node based application that functions like a miniature Amazon store
 
 
 ## Check it out!: 
-[Open Here](https://drive.google.com/file/d/1ha6lZFvGUyrATYTgbFnQt5eBcYDAiTQb/view "My Portfolio")
+[Open Here](https://drive.google.com/file/d/1ha6lZFvGUyrATYTgbFnQt5eBcYDAiTQb/view "Bamazon")
 
 
 ## Built With:
